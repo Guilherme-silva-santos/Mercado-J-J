@@ -195,37 +195,4 @@ section .card-item{
 }
 
 
-@media screen and (min-width: 768px) {
-    
-    nav ul {
-        flex-direction: row;
-        width: 70%;
-    }
 
-    header{
-        height: 600px;
-        height: 60vh;
-        justify-content: center;
-    }
-    nav ul li {
-        display: none;
-    }
-
-    .header-block img{
-        width: 70%;
-        position:absolute;
-        right: 50%;
-        top: 100%;
-    }
-
-    .header-block .text{
-        position:relative;
-        bottom: 10%;
-        left: 15%;
-    }
-    section.filter-card{
-        width: 4000px;
-        padding: 0px 10px;
-    }
-    
-}
